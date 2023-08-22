@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 app.use("/api", emailRoutes);
 app.get("/healthcheck", (req, res) => {
-  res.status(200).send("Server is up and running");
+  res.status(200).json({ message: "Server is up and running" });
 });
 sequelize.sync().then(() => {
   console.log("DB Connected");
