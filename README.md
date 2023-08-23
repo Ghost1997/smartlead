@@ -6,7 +6,7 @@ Welcome to the Node.js project setup guide. This document will guide you through
 
 Before you start, make sure you have the following tools installed on your system:
 
-- Node.js (version X.X.X)
+- Node.js
 - Git
 - PostgreSQL
 - npm (Node Package Manager)
