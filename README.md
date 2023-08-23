@@ -65,7 +65,7 @@ This URL will provide you with information about the health status of the deploy
 
 Please note that the project is deployed on an AWS EC2 instance. The health check URL mentioned is where the deployed application's health status can be monitored.
 
-
+[http://13.53.174.158:4000/healthcheck](http://13.53.174.158:4000/healthcheck)
 ## Conclusion
 
 Congratulations! You have successfully set up the Node.js project on your local machine and learned how to run the server. If you encounter any issues or have questions, feel free to reach out to the project maintainers.
