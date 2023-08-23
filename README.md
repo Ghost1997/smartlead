@@ -20,10 +20,10 @@ Follow these steps to get the project up and running on your local machine:
 Clone the project repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/Ghost1997/smartlead.git
 ```
 
-Replace `your-username` with your GitHub username and `your-project` with the name of the project repository.
+
 
 ### 2. Create .env File
 
