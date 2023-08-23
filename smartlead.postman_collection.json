@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "50df4817-b966-4e25-b4fc-ad98183e49de",
+		"name": "smartlead",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Email Account",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"fromName\": \"Vaibhav Namburi\",\n  \"fromEmail\": \"vnamburi@smartleadscale.org\",\n  \"username\": \"vnamburi@smartleadscale.org\",\n  \"password\": \"sg#2cxEi3Jo@ZX2f!4\",\n  \"smtpHost\": \"smtp.zoho.com.au\",\n  \"smtpPort\": 587,\n  \"smtpOption\": \"tls\",\n  \"messagePerDay\": 40,\n  \"timegap\": 5,\n  \"setReply\": true,\n  \"useDifferentEmail\": false,\n  \"imapHost\":\"imap.zoho.com.au\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://13.53.174.158:4000/api/email-accounts",
+					"protocol": "http",
+					"host": [
+						"13",
+						"53",
+						"174",
+						"158"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"email-accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send Email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"to\": \"workmail.sujit@gmail.com\",\n    \"subject\": \"this is a Second test subject\",\n    \"body\": \"This is a Second test body\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://13.53.174.158:4000/api/send-email",
+					"protocol": "http",
+					"host": [
+						"13",
+						"53",
+						"174",
+						"158"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"send-email"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Healthcheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://13.53.174.158:4000/healthcheck",
+					"protocol": "http",
+					"host": [
+						"13",
+						"53",
+						"174",
+						"158"
+					],
+					"port": "4000",
+					"path": [
+						"healthcheck"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
