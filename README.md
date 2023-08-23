@@ -57,7 +57,7 @@ This command will start the Node.js server locally. You should see console logs 
 
 Once the server is running, you can access the health check endpoint using the provided URL:
 
-[http:localhost:port/healthcheck](http://13.53.174.158:4000/healthcheck)
+[http://localhost:3000/healthcheck](http://localhost:3000/healthcheck)
 
 This URL will provide you with information about the health status of the deployed application.
 
