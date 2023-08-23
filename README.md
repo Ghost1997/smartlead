@@ -1,4 +1,4 @@
-# Node.js Project Setup Readme
+# Project Setup Readme
 
 Welcome to the Node.js project setup guide. This document will guide you through the steps to set up and run the project on your local machine. This project utilizes PostgreSQL as its database and is deployed on an AWS EC2 instance.
 
@@ -57,15 +57,15 @@ This command will start the Node.js server locally. You should see console logs 
 
 Once the server is running, you can access the health check endpoint using the provided URL:
 
-[http://13.53.174.158:4000/healthcheck](http://13.53.174.158:4000/healthcheck)
+http:localhost:port/healthcheck
 
 This URL will provide you with information about the health status of the deployed application.
 
 ## Deployment
 
-Please note that the project is deployed on an AWS EC2 instance. The health check URL mentioned above is where the deployed application's health status can be monitored.
+Please note that the project is deployed on an AWS EC2 instance. The health check URL mentioned is where the deployed application's health status can be monitored.
 
-For deployment details and instructions specific to the AWS EC2 deployment, please refer to the deployment documentation provided separately.
+[http://13.53.174.158:4000/healthcheck](http://13.53.174.158:4000/healthcheck)
 
 ## Conclusion
 
